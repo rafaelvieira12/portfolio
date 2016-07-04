@@ -181,18 +181,16 @@ section h1 span{ margin:0 auto; float:none!important; padding:0px!important; tex
 
 #tela-contato .itemContato {
   margin: 0 auto;
-  width: 50%;
+  float: none!important;
   margin-bottom: 15px;
 }
 #tela-contato .itemContato > div {
-  float: left;
-  width: 100%;
+
   margin-bottom: 40px;
 }
 #tela-contato .itemContato span{ 
   float: left;   
   border-radius: 50%;
-  width: 60px;
   height: 60px;
   text-align: center;
 }
@@ -206,7 +204,6 @@ section h1 span{ margin:0 auto; float:none!important; padding:0px!important; tex
   float: left;
   margin-left: 20px;
   color: #fff;
-  width: 80%;
   font-size: 17px;
 }
 
@@ -307,6 +304,12 @@ section h1 span{ margin:0 auto; float:none!important; padding:0px!important; tex
 
 .bg-photoshop .bar,.bg-photoshop .fill{ border-color:#176adb!important}
 .bg-photoshop span{color:#176adb!important}
+
+.bg-git .bar,.bg-git .fill{ border-color:#4EAAF0!important}
+.bg-git span{color:#4EAAF0!important}
+
+.bg-sass .bar,.bg-sass .fill{ border-color:#F16C75!important}
+.bg-sass span{color:#F16C75!important}
 
 .circle:hover .texto-1,.circle-small:hover .texto-1{ display:none;}
 .circle:hover .texto-2, .circle-small:hover .texto-2{ display:block;}
