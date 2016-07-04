@@ -56,11 +56,7 @@ $(document).ready(function () {
     $(".bg-2").animate({ width: "21px" }, 2000, "linear", function () { });
     $(".bg-3").animate({ width: "27px" }, 3000, "linear", function () { });
 
-    setInterval(function () {
-        validaForm();
-    }, 500);
-
-
+    
 
     linkBox('PortfolioFront', 'portfolioFront');
     linkBox('PortfolioDesign', 'portfolioDesign');
