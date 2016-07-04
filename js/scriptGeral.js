@@ -57,8 +57,9 @@ $(document).ready(function () {
     $(".bg-3").animate({ width: "27px" }, 3000, "linear", function () { });
 
     setInterval(function () {
-        validaForm();
+        
     }, 500);
+
 
 
 
