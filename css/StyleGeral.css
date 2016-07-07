@@ -206,9 +206,14 @@ section h1 span{ margin:0 auto; float:none!important; padding:0px!important; tex
   color: #fff;
   font-size: 17px;
 }
+#tela-contato .itemContato .github span i{
+  color: #666;
+  font-size: 31px;
+}
 
 #tela-contato .itemContato .email span, #tela-contato .itemContato .email a{ background: #e8a658; }
 #tela-contato .itemContato .linkedin span, #tela-contato .itemContato .linkedin a{ background: #2672ae }
+#tela-contato .itemContato .github span, #tela-contato .itemContato .github a{ background: #DFDFDF; color: #666; }
 
 /* Modal */
 .bg-modal {
